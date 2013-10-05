@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Plugins from Compzets.com" />
+	<meta name="keywords" content="plugin,jquery plugin,plugin from compzets.com,compzets" />
+        <title>AppStore.js Demo (Dark Theme)</title>
+        <link href='http://fonts.googleapis.com/css?family=Audiowide|Patrick+Hand+SC|Lato:300,400,700' rel='stylesheet' type='text/css'>        
+        <style>
+            /*Main Style*/
+            body,html{margin:0;padding:0;font-family:'Lato',Calibri,Arial,sans-serif;font-size:16px;line-height:1.6;background-color:#2f2f2f;overflow-x:hidden}
+            a{color:#5BC0DE;text-decoration:none}a:hover{text-decoration:none}
+            .main-container{max-width:970px;margin:0 auto}
+            .header-container header{width:100%;margin:0 auto;text-align:center;font-size:16px;padding:4em 2em 3em 0;background:#191919}
+            .header-container header h1{font-family:'Lato',Calibri,Arial,sans-serif;font-size:2.625em;line-height:1.3;margin:0;font-weight:700;color:#d4d4d4}
+            .header-container header span{display:block;font-size:60%;padding:0 0 .6em .1em;font-weight:300;color:#B7E0E6}
+            pre{padding:1em;max-width:970px;-size:12px;color:#fff;font-family:Consolas,Monaco,'Andale Mono',monospace;text-shadow:0 -0.1em 0.2em black;border:0.3em solid #545454;border-radius:0.5em;background:none repeat scroll 0 0 #141414;box-shadow:1px 1px 0.5em black inset;display:inline-block;overflow:auto}
+            .mr_top_20x{margin-top:20px}
+            .ac{text-align:center}
+            .fr{float:right}
+        </style>
+        <script src="jquery-1.8.3.min.js"></script>
+        <script src="appstore.js"></script>
+        <link rel="stylesheet" href="appstore.css" />
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script type="text/javascript">
+
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-31158320-1']);
+                    _gaq.push(['_setDomainName', 'compzets.com']);
+                    _gaq.push(['_trackPageview']);
+
+                    (function() {
+                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                    })();
+
+        </script>
+    </head>
+    
+    <body>
+        <div class="header-container">
+                <header>
+                    <h1>AppStore.js Demo (Dark Theme)<span>Create an App Store with Zero Coding</span></h1>	
+                </header>
+        </div>
+        <div class="main-container">
+            
+            <!-- AppStore will be shown here -->
+            <div id="appstore-container"></div>
+            
+            <!-- Some ads -->
+            <div class="fr mr_top_20x">
+                <script>
+                if(document.getElementById('appstore-container').offsetWidth < 500) {
+                    var ad_slot = "9627830193";
+                    var ad_width = 200;
+                    var ad_height = 200;
+                }
+                else {
+                    var ad_slot = "5625315974";
+                    var ad_width = 336;
+                    var ad_height = 280;
+                }
+                </script>
+                <script type="text/javascript"><!--
+                google_ad_client = "ca-pub-1702577941194110";
+                /* Large Rectangle - Compzets (336x280) */
+                google_ad_slot = ad_slot;
+                google_ad_width = ad_width;
+                google_ad_height = ad_height;
+                //-->
+                </script>
+                <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+            </div>
+            
+            <!-- code to call the appstore function (just for demo) -->
+            <h3>Call to Function:</h3>
+            <pre>
+&lt;script&gt;
+    $(function(){
+          $.appstore({json:&quot;appstore.json&quot,theme:&quotdark&quot;});
+    });
+&lt;/script&gt;</pre>           
+            
+            <!-- json file (just for demo) -->
+            <h3>JSON File is like:</h3>
+            <pre>
+{
+    "items": [
+        {
+            "title"         :"AnimateScroll",
+            "description"   :"A Simple jQuery Plugin for Animating Scroll with more than 30 unique easing effects.",
+            "link"          :"http://plugins.compzets.com/animatescroll",
+            "thumbnail"     :"http://plugins.compzets.com/images/animatescroll.png",
+            "logo"          :"http://plugins.compzets.com/images/as-logo.png",
+            "tag"           :"jquery plugin",
+            "date"          :"27th july, 2013"
+        },
+        {
+            "title"         :"FailSafe",
+            "description"   :"A jQuery Plugin to make your App Robust. Protects your App from Lost Internet Connectivity & Low Battery Level.",
+            "link"          :"http://plugins.compzets.com/failsafe",
+            "thumbnail"     :"http://plugins.compzets.com/images/failsafe.png",
+            "logo"          :"http://plugins.compzets.com/images/fs-logo.png",
+            "tag"           :"jquery plugin",
+            "date"          :"15th Aug, 2013"
+        },
+        {
+            "title"         :"ContentShare",
+            "description"   :"A Simple jQuery plugin which lets you share the exact content on a page which you actually want to share. It enables you to share selected text on your social network.",
+            "link"          :"http://plugins.compzets.com/contentshare",
+            "thumbnail"     :"http://plugins.compzets.com/images/contentshare.png",
+            "logo"          :"http://plugins.compzets.com/contentshare/img/cs-logo-64.png",
+            "tag"           :"jquery plugin",
+            "date"          :"10th sept, 2013"
+        }
+    ]
+}</pre>       
+            
+            <p>You might also like the <a href="demo-light.html">Light Theme</a></p>
+            <footer class="ac"><small>Developed & Designed by <a href="http://www.ramswaroop.me" target="_blank">Ram Swaroop</a><br/> &copy;Copyright by <a href="http://www.compzets.com" target="_blank">Compzets.com</a></small></footer>
+        </div>
+        <!-- calling the appstore function -->
+        <script>
+            $(function(){
+                $.appstore({json:"appstore.json",theme:"dark"});
+            });
+        </script>
+    </body>
+</html>
