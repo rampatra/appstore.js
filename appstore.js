@@ -23,7 +23,7 @@
             buttonColor     : "#e74c3c",
             backgroundColor : "#0e0e0e",
             titleColor      : "#d4d4d4",
-            descColor       : "#d4d4d4"
+            descColor       : "#7e7e7e"
         }
     });
 }(jQuery));
