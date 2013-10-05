@@ -22,7 +22,7 @@ http://plugins.compzets.com/appstore/download/demo-dark.html
 
 JSON File Format
 ================
-{
+<pre><code>{
     "items": [
         {
             "title"         :"AnimateScroll",
@@ -53,3 +53,4 @@ JSON File Format
         }        
     ]
 }
+</code></pre>
