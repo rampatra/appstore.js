@@ -13,7 +13,7 @@
     text-align:center
 }
 #appstore-container img{border:0}
-#appstore-container .item{
+#appstore-container .as-item{
     width:300px;
     margin:10px;
     vertical-align:top;
@@ -22,7 +22,7 @@
     border-radius:4px;
     display:inline-block
 }
-#appstore-container .item-thumbnail{
+#appstore-container .as-item-thumbnail{
     width:300px;
     height:180px;
     background-position:center top;
@@ -31,7 +31,7 @@
     overflow:hidden;    
     text-align:center
 }
-#appstore-container .item-thumbnail .item-logo{
+#appstore-container .as-item-thumbnail .as-item-logo{
     width:64px;
     height:64px;
     margin-top:60px;
@@ -40,14 +40,14 @@
     border-radius:3px;
     cursor:pointer
 }
-#appstore-container .item-thumbnail .item-logo:active{margin-top:65px;margin-bottom:-5px;}
-#appstore-container .item-desc{
+#appstore-container .as-item-thumbnail .as-item-logo:active{margin-top:65px;margin-bottom:-5px;}
+#appstore-container .as-item-desc{
     padding:10px;
     color:#4d5e65;
     text-align:left
 }
-#appstore-container .item-desc>h3{font-size:21px}
-#appstore-container .item-desc .btn{
+#appstore-container .as-item-desc>h3{font-size:21px}
+#appstore-container .as-item-desc .as-btn{
     margin-top:10px;
     padding:5px 8px 5px 8px;
     font-size:11px;
@@ -59,9 +59,9 @@
     box-shadow:0 1px 1px #d5d5d5;
     display:inline-block;
 }
-#appstore-container .tag,#appstore-container .date{margin-left:3px;font-size:11px;text-transform:uppercase;vertical-align:15%}
+#appstore-container .as-tag,#appstore-container .as-date{margin-left:3px;font-size:11px;text-transform:uppercase;vertical-align:15%}
 /* CSS Icons */
-#appstore-container .icon {
+#appstore-container .as-icon {
 	line-height:100%;
 	width: 1em;
 	height: 1em;
@@ -69,23 +69,23 @@
 	display: inline-block;
 	/*float: left;*/
 }
-#appstore-container .icon-small {
+#appstore-container .as-icon-small {
 	font-size: 1em;
 }
-#appstore-container .icon-mid {
+#appstore-container .as-icon-mid {
 	font-size: 2em;
 }
-#appstore-container .icon-large {
+#appstore-container .as-icon-large {
 	font-size: 4em;
 }
-#appstore-container .icon-extra-large {
+#appstore-container .as-icon-extra-large {
 	font-size: 8em;
 }
-#appstore-container .icon-huge {
+#appstore-container .as-icon-huge {
 	font-size: 12em;
 }
 /* Tag */
-#appstore-container .icon-tag {
+#appstore-container .as-icon-tag {
 	position: absolute;
 	top: 0;
 	left: .25em;
@@ -95,8 +95,8 @@
 	border-top-left-radius: .0625em;
 	border-top-right-radius: .0625em;
 }
-#appstore-container .icon-tag:before,
-#appstore-container .icon-tag:after {
+#appstore-container .as-icon-tag:before,
+#appstore-container .as-icon-tag:after {
 	content: "";
 	position: absolute;
 	top: .75em;
@@ -105,16 +105,16 @@
 	border-width: .191em;
 	border-style: solid;
 }
-#appstore-container .icon-tag:before {
+#appstore-container .as-icon-tag:before {
 	left: 0;
 	border-color: rgb(102, 102, 102) transparent transparent rgb(102, 102, 102); /* #666 */
 }
-#appstore-container .icon-tag:after {
+#appstore-container .as-icon-tag:after {
 	left: .3em;
 	border-color: rgb(102, 102, 102) rgb(102, 102, 102) transparent transparent; /* #666 */
 }
 /* Calendar */
-#appstore-container .icon-calendar{
+#appstore-container .as-icon-calendar{
 	position: absolute;
 	top: .125em;
 	left: 0;
@@ -125,7 +125,7 @@
 	border-color: rgb(102, 102, 102); /* #666 */
 	border-radius: .0625em;
 }
-#appstore-container .icon-calendar:before{
+#appstore-container .as-icon-calendar:before{
 	content: "";
 	position: absolute;
 	top: -.35em;
@@ -136,7 +136,7 @@
 	border-style: solid;
 	border-color: rgb(102, 102, 102); /* #666 */
 }
-#appstore-container .icon-calendar:after{
+#appstore-container .as-icon-calendar:after{
 	content: ":::";
 	position: absolute;
 	top: -.25em;
@@ -157,9 +157,9 @@
 }
 @media (min-width: 32.5em) and (max-width: 38.688em) {
     #appstore-container {font-size:13px;margin:20px 0 0 0}
-    #appstore-container .tag{font-size:10px}
+    #appstore-container .as-tag{font-size:10px}
 }
 @media (max-width: 32.438em) {
     #appstore-container {font-size:12px;margin:20px 0 0 0}
-    #appstore-container .tag{font-size:10px}
+    #appstore-container .as-tag{font-size:10px}
 }
