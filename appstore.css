@@ -57,7 +57,7 @@
     text-decoration:none;
     border-radius:2px;
     box-shadow:0 1px 1px #d5d5d5;
-    display:inline-block;
+    display:inline-block
 }
 #appstore-container .as-tag,#appstore-container .as-date{margin-left:3px;font-size:11px;text-transform:uppercase;vertical-align:15%}
 /* CSS Icons */
@@ -66,23 +66,22 @@
 	width: 1em;
 	height: 1em;
 	position: relative;
-	display: inline-block;
-	/*float: left;*/
+	display: inline-block
 }
 #appstore-container .as-icon-small {
-	font-size: 1em;
+	font-size: 1em
 }
 #appstore-container .as-icon-mid {
-	font-size: 2em;
+	font-size: 2em
 }
 #appstore-container .as-icon-large {
-	font-size: 4em;
+	font-size: 4em
 }
 #appstore-container .as-icon-extra-large {
-	font-size: 8em;
+	font-size: 8em
 }
 #appstore-container .as-icon-huge {
-	font-size: 12em;
+	font-size: 12em
 }
 /* Tag */
 #appstore-container .as-icon-tag {
@@ -93,7 +92,7 @@
 	height: .75em;
 	background-color: rgb(102, 102, 102); /* #666 */
 	border-top-left-radius: .0625em;
-	border-top-right-radius: .0625em;
+	border-top-right-radius: .0625em
 }
 #appstore-container .as-icon-tag:before,
 #appstore-container .as-icon-tag:after {
@@ -103,15 +102,15 @@
 	width: 0;
 	height: 0;
 	border-width: .191em;
-	border-style: solid;
+	border-style: solid
 }
 #appstore-container .as-icon-tag:before {
 	left: 0;
-	border-color: rgb(102, 102, 102) transparent transparent rgb(102, 102, 102); /* #666 */
+	border-color: rgb(102, 102, 102) transparent transparent rgb(102, 102, 102) /* #666 */
 }
 #appstore-container .as-icon-tag:after {
 	left: .3em;
-	border-color: rgb(102, 102, 102) rgb(102, 102, 102) transparent transparent; /* #666 */
+	border-color: rgb(102, 102, 102) rgb(102, 102, 102) transparent transparent /* #666 */
 }
 /* Calendar */
 #appstore-container .as-icon-calendar{
@@ -123,7 +122,7 @@
 	border-width: .255em .0925em .0925em .0925em;
 	border-style: solid;
 	border-color: rgb(102, 102, 102); /* #666 */
-	border-radius: .0625em;
+	border-radius: .0625em
 }
 #appstore-container .as-icon-calendar:before{
 	content: "";
@@ -134,7 +133,7 @@
 	height: .325em;
 	border-width: 0 .125em;
 	border-style: solid;
-	border-color: rgb(102, 102, 102); /* #666 */
+	border-color: rgb(102, 102, 102) /* #666 */
 }
 #appstore-container .as-icon-calendar:after{
 	content: ":::";
@@ -144,7 +143,7 @@
 	font-family: Arial, sans-serif;
 	font-size: .5em;
 	font-weight: bold;
-	color: rgb(102, 102, 102); /* #666 */
+	color: rgb(102, 102, 102) /* #666 */
 }
 /*Helper Classes*/
 .mr_top_20x{margin-top:20px}
