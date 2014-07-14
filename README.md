@@ -7,22 +7,22 @@ It takes data from a JSON file and generates a fully Responsive and Trendy App S
 This Plugin is compatible with Bootstrap, Foundation as well as other similar Frameworks
 
 Complete Doc
-============
+------------
 http://plugins.compzets.com/appstore/
 
 
 Light Theme Demo
-================
+----------------
 http://plugins.compzets.com/appstore/download/demo-light.html
 
 
 Dark Theme Demo
-===============
+---------------
 http://plugins.compzets.com/appstore/download/demo-dark.html
 
 
 JSON File Format
-================
+----------------
 ```json
 {
     "items": [
