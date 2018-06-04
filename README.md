@@ -1,8 +1,6 @@
 appstore.js
 ===========
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ramswaroop/appstore.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 A jQuery plugin which lets you create a Trendy &amp; Responsive App Showcase or App Center with zero coding.
 It takes data from a JSON file and generates a fully Responsive and Trendy App Store in two different themes.
 
